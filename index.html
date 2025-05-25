@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thea Faith P. Hare | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+
+<div class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" role="button" tabindex="0">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<aside class="sidebar" id="sidebar">
+  <span class="close-sidebar" onclick="document.querySelector('.sidebar').classList.remove('active')">×</span>
+  <div class="profile">
+    <h1 class="neon-logo">Thea Faith</h1>
+    <img src="assets/img/profile.jpeg" alt="Profile" class="profile-img" />
+    <p>IT Professional | Cybersecurity Specialist | Frontend Developer</p>
+  </div>
+  <nav class="nav-links">
+    <a href="#" data-page="index.html" data-text="Home"><i class="fas fa-home"></i> Home</a>
+    <a href="#" data-page="blog.html" data-text="Blog"><i class="fas fa-newspaper"></i> Blog</a>
+    <a href="#" data-page="projects.html" data-text="Projects"><i class="fas fa-code"></i> Projects</a>
+    <a href="#" data-page="work-experience.html" data-text="Experience"><i class="fas fa-briefcase"></i> Experience</a>
+    <a href="#" data-page="contact.html" data-text="Contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/theafaithhare" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/theafaith" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</aside>
+
+<main class="content">
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="assets/img/cover.jpeg" alt="Welcome Background" class="hero-img" />
+      <div class="overlay">
+        <h1 class="neon-title">Innovating the Future, Today.</h1>
+        <p class="lead">Hi, I'm <strong>Thea Faith P. Hare</strong>, a passionate IT professional crafting innovative, secure, and impactful digital experiences.</p>
+        <a href="#about" class="neon-button">Explore More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="neon-title text-center">About Me</h2>
+    <p class="about-text">
+      I’m a technology enthusiast with a strong focus on <span style="color: #00ffff;">frontend development</span> and <span style="color: #00ffff;">cybersecurity</span>. I specialize in building intuitive, responsive user interfaces while ensuring systems remain secure and resilient against modern threats.
+    </p>
+    <p class="about-text">
+      My work blends creativity and precision—transforming design concepts into functional, accessible web applications that meet both user expectations and performance benchmarks.
+    </p>
+    <p class="about-text">
+      With a background in Information Technology and hands-on experience across academic, freelance, and internship projects, I bring a disciplined, solutions-driven approach to every task.
+    </p>
+    <div class="personal-details">
+      <div class="detail-item"><strong>Website:</strong> <a href="https://www.theafaith.dev" target="_blank" rel="noopener noreferrer">www.theafaith.dev</a></div>
+      <div class="detail-item"><strong>Phone:</strong> <a href="tel:+639123456789">+63 912 345 6789</a></div>
+      <div class="detail-item"><strong>Email:</strong> <a href="mailto:theafaithhare@gmail.com">theafaithhare@gmail.com</a></div>
+      <div class="detail-item"><strong>Location:</strong> Iloilo City, Philippines</div>
+      <div class="detail-item"><strong>Degree:</strong> Bachelor of Science in Information Technology</div>
+      <div class="detail-item"><strong>Freelance:</strong> Available for new opportunities</div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
